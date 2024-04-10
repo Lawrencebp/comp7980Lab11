@@ -5,7 +5,7 @@ module.exports = async function (context, req) {
 
     try {
         const parsedUrl = new URL(req.url);
-        const url = new URL(`https://7980Deploy.azurewebsites.net${parsedUrl.pathname}${parsedUrl.search}`);
+        const url = new URL(`https://7980deploy.azurewebsites.net${parsedUrl.pathname}${parsedUrl.search}`);
 
         const options = {
             method: req.method,
